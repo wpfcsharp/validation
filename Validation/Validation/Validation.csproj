@@ -38,12 +38,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AndSpecification.cs" />
+    <Compile Include="BindableBase.cs" />
+    <Compile Include="CompareValidation.cs" />
     <Compile Include="CompositeSpecification.cs" />
+    <Compile Include="DateTimeOffsetField.cs" />
     <Compile Include="ExpressionSpecification.cs" />
+    <Compile Include="Field.cs" />
     <Compile Include="NotSpecification.cs" />
     <Compile Include="OrSpecification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Specification.cs" />
+    <Compile Include="StringField.cs" />
     <Compile Include="ValidationSpecification.cs" />
     <Compile Include="ValidSpecification.cs" />
   </ItemGroup>
